@@ -15,6 +15,9 @@ Assumptions
 1) The zip file https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip has been downloaded and uncompressed.
 2) The working directory is currently set to the extracted "UCI HAR Dataset" directory (or folder).
 
+Directions
+1) Execute the run_analysis.R scripts from the "UCI HAR Dataset" directory (or folder) after unzipping the required zipfile.
+
 Algorithm
 1) Read the activity labels into memory (walking, laying, standing, etc).
 2) Read the training data subjects, activities, and values into memory.
