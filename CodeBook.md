@@ -56,78 +56,150 @@ The final data format is
 subject     activityName    variable            values
 1           standing        tBodyAcc-mean()-X   0.278917629
 
-The alternative "wide" format is also included.
-subject     activityName      tBodyAcc-mean()-X      tBodyAcc-mean()-Y ...
 Variables
+
 1) Subject - The number assigned to each person participating in the study. Since 30 people participated, the subject values range from 1 to 30, with each number representing an unique individual. The field is numeric.
+
 2) activityName - The type of activity the person participated in. The values are standing, sitting, laying, walking, walking_downstairs, walking_upstairs. Each person participate in each activity. This is a text field.
+
 3) variable - The average of the variable being measured. Each person has measures for each activity. This is a text field and the values are
+
          1:           tBodyAcc-mean()-X
+
          2:           tBodyAcc-mean()-Y
+
          3:           tBodyAcc-mean()-Z
+
          4:            tBodyAcc-std()-X
+
          5:            tBodyAcc-std()-Y
+
          6:            tBodyAcc-std()-Z
+
          7:        tGravityAcc-mean()-X
+
          8:        tGravityAcc-mean()-Y
+
          9:        tGravityAcc-mean()-Z
+
         10:         tGravityAcc-std()-X
+
         11:         tGravityAcc-std()-Y
+
         12:         tGravityAcc-std()-Z
+
         13:       tBodyAccJerk-mean()-X
+
         14:       tBodyAccJerk-mean()-Y
+
         15:       tBodyAccJerk-mean()-Z
+
         16:        tBodyAccJerk-std()-X
+
         17:        tBodyAccJerk-std()-Y
+
         18:        tBodyAccJerk-std()-Z
+
         19:          tBodyGyro-mean()-X
+
         20:          tBodyGyro-mean()-Y
+
         21:          tBodyGyro-mean()-Z
+
         22:           tBodyGyro-std()-X
+
         23:           tBodyGyro-std()-Y
+
         24:           tBodyGyro-std()-Z
+
         25:      tBodyGyroJerk-mean()-X
+
         26:      tBodyGyroJerk-mean()-Y
+
         27:      tBodyGyroJerk-mean()-Z
+
         28:       tBodyGyroJerk-std()-X
+
         29:       tBodyGyroJerk-std()-Y
+
         30:       tBodyGyroJerk-std()-Z
+
         31:          tBodyAccMag-mean()
+
         32:           tBodyAccMag-std()
+
         33:       tGravityAccMag-mean()
+
         34:        tGravityAccMag-std()
+
         35:      tBodyAccJerkMag-mean()
+
         36:       tBodyAccJerkMag-std()
+
         37:         tBodyGyroMag-mean()
+
         38:          tBodyGyroMag-std()
+
         39:     tBodyGyroJerkMag-mean()
+
         40:      tBodyGyroJerkMag-std()
+
         41:           fBodyAcc-mean()-X
+
         42:           fBodyAcc-mean()-Y
+
         43:           fBodyAcc-mean()-Z
+
         44:            fBodyAcc-std()-X
+
         45:            fBodyAcc-std()-Y
+
         46:            fBodyAcc-std()-Z
+
         47:       fBodyAccJerk-mean()-X
+
         48:       fBodyAccJerk-mean()-Y
+
         49:       fBodyAccJerk-mean()-Z
+
         50:        fBodyAccJerk-std()-X
+
         51:        fBodyAccJerk-std()-Y
+
         52:        fBodyAccJerk-std()-Z
+
         53:          fBodyGyro-mean()-X
+
         54:          fBodyGyro-mean()-Y
+
         55:          fBodyGyro-mean()-Z
+
         56:           fBodyGyro-std()-X
+
         57:           fBodyGyro-std()-Y
+
         58:           fBodyGyro-std()-Z
+
         59:          fBodyAccMag-mean()
+
         60:           fBodyAccMag-std()
+
         61:  fBodyBodyAccJerkMag-mean()
+
         62:   fBodyBodyAccJerkMag-std()
+
         63:     fBodyBodyGyroMag-mean()
+
         64:      fBodyBodyGyroMag-std()
+
         65: fBodyBodyGyroJerkMag-mean()
+
         66:  fBodyBodyGyroJerkMag-std()
+
 4) average - The average value of the variable being measured. The field is numeric.
 
 There are 11,880 total obersvations (30 participants * 6 activities * 66 measurements).
+
+The alternative "wide" format is also included.
+
+subject     activityName        tBodyAcc-mean()-X       tBodyAcc-mean()-Y ...
