@@ -50,6 +50,16 @@ Algorithm
 9) Wrote the data to a file using the required commend write.table().
 
 Results
+
 The final data format is
+
 subject     activityName    variable            values
+
 1           standing        tBodyAcc-mean()-X   0.278917629
+
+For that the prefer the alternative "wide" solution the format is
+subject     activityName    tBodyAcc-mean()-X   tBodyAcc-mean()-Y ...  
+
+1           standing        0.278917629         ...
+
+
